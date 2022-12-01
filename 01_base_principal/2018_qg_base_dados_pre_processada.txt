@@ -1,0 +1,133 @@
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada(|I|=338; |A|=80; |D|=43661; |D+|=3475; |D-|=40186)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.08647074924726902(3475p,40186n)(conf=0.07959048120748494)
+{nturesnome = NOITE,alunosexo = F,Quantidade de Maquinas Fotograficas/ Filmadoras = 2,Quantidade de computadores de uso administrativo = 1} -> 7.5(15p,1n)(conf=0.9375)
+{nturesnome = NOITE,Quantidade de Maquinas Fotograficas/ Filmadoras = 2,Quantidade de computadores de uso administrativo = 1} -> 4.2(21p,4n)(conf=0.84)
+{nturesnome = NOITE,alunosexo = F,Quantidade de Aparelhos de som = 2,Quantidade de computadores na escola = 4} -> 3.8181818181818183(42p,10n)(conf=0.8076923076923077)
+{nturesnome = NOITE,Quantidade de Aparelhos de som = 2,Quantidade de computadores na escola = 4} -> 3.05(61p,19n)(conf=0.7625)
+{nturesnome = NOITE,alunosexo = F,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 9,Quantidade de Impressoras Multifuncionais = 2} -> 3.0(33p,10n)(conf=0.7674418604651163)
+{nturesnome = NOITE,alunosexo = F,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 9,Quantidade de computadores de uso administrativo = 1} -> 2.7(27p,9n)(conf=0.75)
+{nturesnome = NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 9,Quantidade de computadores de uso administrativo = 1} -> 2.5(40p,15n)(conf=0.7272727272727273)
+{nturesnome = NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 9,Quantidade de Impressoras Multifuncionais = 2} -> 2.473684210526316(47p,18n)(conf=0.7230769230769231)
+{nturesnome = NOITE,Existente na escola - Refeitorio = S,Quantidade total de funcionarios da escola  = 35} -> 2.125(17p,7n)(conf=0.7083333333333334)
+{nturesnome = NOITE,Esgoto sanitario - Fossa = S,Quantidade de Aparelhos de DVD = 2,Quantidade de Maquinas Fotograficas/ Filmadoras = 2} -> 2.125(34p,15n)(conf=0.6938775510204082)
+### Data set:2018_base_dados_pre_processada(|I|=338; |A|=80; |D+|=3475; |D-|=40186)
+Average Qg: 3.3491866028708133
+Time(s): 40.898
+Average size: 3.5
+Coverage of all Pk DPs in relation to D+: 2.820143884892086%
+Description Redundancy Item Dominador (|itemDominador|/k): 1.0
+Number of individuals generated: 21546
+
+### Top-k and caches
+{} -> 0.08647074924726902(3475p,40186n)(conf=0.07959048120748494)
+{nturesnome=NOITE,alunosexo=F,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=15, others=1)
+	[Qualidade=7,5|Size=4|Lift=11,78]
+   cache(0):{nturesnome=NOITE,alunosexo=F,Abastecimento de agua - Poco artesiano=N,Existente na escola - Videocassete=N,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores na escola=4}->S (S=15, others=1)
+	[Qualidade=7,5|Size=6|Lift=11,78] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,alunosexo=F,Existente na escola - Videocassete=N,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=15, others=1)
+	[Qualidade=7,5|Size=5|Lift=11,78] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Antena parabolica=N,Quantidade de Aparelhos de DVD=2,Quantidade de Datashow=1,Quantidade de Maquinas Fotograficas/ Filmadoras=2}->S (S=15, others=1)
+	[Qualidade=7,5|Size=7|Lift=11,78] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Videocassete=N,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=15, others=1)
+	[Qualidade=7,5|Size=6|Lift=11,78] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,alunosexo=F,Existente na escola - Antena parabolica=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=15, others=1)
+	[Qualidade=7,5|Size=6|Lift=11,78] ||Similarity:1||
+
+{nturesnome=NOITE,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=3|Lift=10,55]
+   cache(0):{nturesnome=NOITE,Existente na escola - Sala de secretaria=S,Quantidade de Retroprojetores=2,Quantidade de computadores na escola=4}->S (S=21, others=4)
+	[Qualidade=4,2|Size=4|Lift=10,55] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,Quantidade de Aparelhos de DVD=2,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=4|Lift=10,55] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,Quantidade de Aparelhos de som=2,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=4|Lift=10,55] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,Existente na escola - Cozinha=S,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=4|Lift=10,55] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,Local de funcionamento - Templo/Igreja=N,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=4|Lift=10,55] ||Similarity:1||
+
+{nturesnome=NOITE,alunosexo=F,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=4|Lift=10,15]
+   cache(0):{nturesnome=NOITE,alunosexo=F,Existente na escola - Sala de AEE=S,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=5|Lift=10,15] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,alunosexo=F,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=5|Lift=10,15] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,alunosexo=F,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=5|Lift=10,15] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,alunosexo=F,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4,Quantidade de computadores de uso administrativo=1}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=7|Lift=10,15] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,alunosexo=F,Existente na escola - Antena parabolica=N,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4}->S (S=42, others=10)
+	[Qualidade=3,8182|Size=6|Lift=10,15] ||Similarity:1||
+
+{nturesnome=NOITE,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4}->S (S=61, others=19)
+	[Qualidade=3,05|Size=3|Lift=9,58]
+   cache(0):{nturesnome=NOITE,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=61, others=19)
+	[Qualidade=3,05|Size=4|Lift=9,58] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,Existente na escola - Sala de AEE=S,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=61, others=19)
+	[Qualidade=3,05|Size=4|Lift=9,58] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,Existente na escola - Antena parabolica=N,Escola oferece Pre-escola em classes comuns do ensino regular=S,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=61, others=19)
+	[Qualidade=3,05|Size=6|Lift=9,58] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,Quantidade de Aparelhos de som=2,Quantidade de computadores na escola=4}->S (S=61, others=19)
+	[Qualidade=3,05|Size=4|Lift=9,58] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,Existente na escola - Cozinha=S,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=61, others=19)
+	[Qualidade=3,05|Size=5|Lift=9,58] ||Similarity:1||
+
+{nturesnome=NOITE,alunosexo=F,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2}->S (S=33, others=10)
+	[Qualidade=3|Size=4|Lift=9,64]
+   cache(0):{nturesnome=NOITE,alunosexo=F,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de DVD=2,Quantidade de Impressoras Multifuncionais=2}->S (S=33, others=10)
+	[Qualidade=3|Size=5|Lift=9,64] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2}->S (S=33, others=10)
+	[Qualidade=3|Size=5|Lift=9,64] ||Similarity:1||
+   cache(2): ||Similarity:0,001||
+   cache(3): ||Similarity:0,001||
+   cache(4): ||Similarity:0,001||
+
+{nturesnome=NOITE,alunosexo=F,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=4|Lift=9,42]
+   cache(0):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=5|Lift=9,42] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,Existente na escola - Videocassete=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=6|Lift=9,42] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,alunosexo=F,Existente na escola - Videocassete=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=5|Lift=9,42] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,alunosexo=F,Existente na escola - Antena parabolica=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=5|Lift=9,42] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,alunosexo=F,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de DVD=2,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=27, others=9)
+	[Qualidade=2,7|Size=7|Lift=9,42] ||Similarity:1||
+
+{nturesnome=NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=3|Lift=9,14]
+   cache(0):{nturesnome=NOITE,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=5|Lift=9,14] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=6|Lift=9,14] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,Existente na escola - Antena parabolica=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=5|Lift=9,14] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,Existente na escola - Videocassete=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de som=2,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=5|Lift=9,14] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,Existente na escola - Videocassete=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de computadores de uso administrativo=1}->S (S=40, others=15)
+	[Qualidade=2,5|Size=4|Lift=9,14] ||Similarity:1||
+
+{nturesnome=NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=3|Lift=9,08]
+   cache(0):{nturesnome=NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de DVD=2,Quantidade de Impressoras Multifuncionais=2}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=4|Lift=9,08] ||Similarity:1||
+   cache(1):{nturesnome=NOITE,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=4|Lift=9,08] ||Similarity:1||
+   cache(2):{nturesnome=NOITE,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Aparelhos de DVD=2,Quantidade de Impressoras Multifuncionais=2}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=5|Lift=9,08] ||Similarity:1||
+   cache(3):{nturesnome=NOITE,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2,Quantidade de Datashow=1}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=4|Lift=9,08] ||Similarity:1||
+   cache(4):{nturesnome=NOITE,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=9,Quantidade de Impressoras Multifuncionais=2}->S (S=47, others=18)
+	[Qualidade=2,4737|Size=4|Lift=9,08] ||Similarity:1||
+
+{nturesnome=NOITE,Existente na escola - Refeitorio=S,Quantidade total de funcionarios da escola =35}->S (S=17, others=7)
+	[Qualidade=2,125|Size=3|Lift=8,9]
+{nturesnome=NOITE,Esgoto sanitario - Fossa=S,Quantidade de Aparelhos de DVD=2,Quantidade de Maquinas Fotograficas/ Filmadoras=2}->S (S=34, others=15)
+	[Qualidade=2,125|Size=4|Lift=8,72]
+BUILD SUCCESSFUL (total time: 44 seconds)

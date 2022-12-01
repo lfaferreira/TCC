@@ -1,0 +1,113 @@
+run:
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada(|I|=338; |A|=80; |D|=43661; |D+|=3475; |D-|=40186)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.0(3475p,40186n)(conf=0.07959048120748494)
+{nturesnome = NOITE,Existente na escola - Banheiro dentro do predio = S} -> 0.0175393986022078(1121p,3342n)(conf=0.2511763387855702)
+{nturesnome = NOITE,Quantidade de Antenas parabolicas = 0} -> 0.016169652290558396(1037p,3122n)(conf=0.24933878336138496)
+{nturesnome = NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao = S,Existente na escola - Banheiro fora do predio = N} -> 0.015545457431079823(1015p,3210n)(conf=0.24023668639053256)
+{nturesnome = NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao = S,Existente na escola - Fax = N} -> 0.015284023519822533(993p,3099n)(conf=0.24266862170087977)
+{nturesnome = NOITE,Forma de ocupacao do Predio escolar = 1} -> 0.015266263301951914(997p,3155n)(conf=0.2401252408477842)
+{nturesnome = NOITE,Existente na escola - Sala de Leitura = N,Existente na escola - Banheiro dentro do predio = S} -> 0.015243722576476883(968p,2832n)(conf=0.25473684210526315)
+{nturesnome = NOITE,Existente na escola - Sala de Diretoria = S,Existente na escola - Banheiro dentro do predio = S} -> 0.015144868939420141(980p,3025n)(conf=0.24469413233458176)
+{nturesnome = NOITE,Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de som = S} -> 0.015049971168471692(948p,2707n)(conf=0.2593707250341997)
+{nturesnome = NOITE,Regulamentacao no conselho ou orgao municipal, estadual ou federal de educacao = 1} -> 0.01498548074123988(981p,3124n)(conf=0.2389768574908648)
+{nturesnome = NOITE,Abastecimento de agua - Rede publica = S,Existente na escola - Sala de secretaria = S} -> 0.01474503689371301(967p,3094n)(conf=0.23811868997783797)
+### Data set:2018_base_dados_pre_processada(|I|=338; |A|=80; |D+|=3475; |D-|=40186)
+Average WRAcc: 0.015497387546494207
+Time(s): 32.208
+Average size: 2.6
+Coverage of all Pk DPs in relation to D+: 32.51798561151079%
+Description Redundancy Item Dominador (|itemDominador|/k): 1.0
+Number of individuals generated: 15048
+
+### Top-k and caches
+{} -> 0.0(3475p,40186n)(conf=0.07959048120748494)
+{nturesnome=NOITE,Existente na escola - Banheiro dentro do predio=S}->S (S=1121, others=3342)
+	[Qualidade=0,0175|Size=2|Lift=3,16]
+   cache(0):{nturesnome=NOITE}->S (S=1130, others=3449)
+	[Qualidade=0,0175|Size=1|Lift=3,1] ||Similarity:0,9747||
+   cache(1):{nturesnome=NOITE,Ensino Fundamental organizado em ciclos=S}->S (S=1125, others=3433)
+	[Qualidade=0,0175|Size=2|Lift=3,1] ||Similarity:0,9701||
+   cache(2):{nturesnome=NOITE,Local de funcionamento - Templo/Igreja=N}->S (S=1125, others=3442)
+	[Qualidade=0,0174|Size=2|Lift=3,09] ||Similarity:0,972||
+   cache(3):{nturesnome=NOITE,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S}->S (S=1096, others=3204)
+	[Qualidade=0,0173|Size=2|Lift=3,2] ||Similarity:0,9137||
+   cache(4):{nturesnome=NOITE,Existente na escola - Cozinha=S}->S (S=1092, others=3256)
+	[Qualidade=0,0171|Size=2|Lift=3,16] ||Similarity:0,9242||
+
+{nturesnome=NOITE,Quantidade de Antenas parabolicas=0}->S (S=1037, others=3122)
+	[Qualidade=0,0162|Size=2|Lift=3,13]
+   cache(0):{nturesnome=NOITE,Existente na escola - Fax=N}->S (S=1030, others=3179)
+	[Qualidade=0,0159|Size=2|Lift=3,07] ||Similarity:0,9268||
+   cache(1):{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Quantidade de Antenas parabolicas=0}->S (S=1000, others=3042)
+	[Qualidade=0,0155|Size=3|Lift=3,11] ||Similarity:0,9719||
+   cache(2):{nturesnome=NOITE,Abastecimento de agua - Rede publica=S,Quantidade de Antenas parabolicas=0}->S (S=992, others=3037)
+	[Qualidade=0,0154|Size=3|Lift=3,09] ||Similarity:0,9687||
+   cache(3):{nturesnome=NOITE,Existente na escola - Fax=N,Quantidade de Antenas parabolicas=0}->S (S=991, others=3034)
+	[Qualidade=0,0154|Size=3|Lift=3,09] ||Similarity:0,9678||
+   cache(4):{nturesnome=NOITE,Quantidade de Antenas parabolicas=0,Quantidade de Fax=0}->S (S=991, others=3034)
+	[Qualidade=0,0154|Size=3|Lift=3,09] ||Similarity:0,9678||
+
+{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Banheiro fora do predio=N}->S (S=1015, others=3210)
+	[Qualidade=0,0155|Size=3|Lift=3,02]
+{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Fax=N}->S (S=993, others=3099)
+	[Qualidade=0,0153|Size=3|Lift=3,05]
+{nturesnome=NOITE,Forma de ocupacao do Predio escolar=1}->S (S=997, others=3155)
+	[Qualidade=0,0153|Size=2|Lift=3,02]
+   cache(0):{nturesnome=NOITE,Existente na escola - Sala de secretaria=S}->S (S=988, others=3145)
+	[Qualidade=0,0151|Size=2|Lift=3] ||Similarity:0,9002||
+   cache(1):{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Forma de ocupacao do Predio escolar=1}->S (S=960, others=3075)
+	[Qualidade=0,0146|Size=3|Lift=2,99] ||Similarity:0,9718||
+   cache(2):{nturesnome=NOITE,Existente na escola - Banheiro fora do predio=N,Forma de ocupacao do Predio escolar=1}->S (S=935, others=3018)
+	[Qualidade=0,0142|Size=3|Lift=2,97] ||Similarity:0,9521||
+   cache(3):{nturesnome=NOITE,Existente na escola - Fax=N,Forma de ocupacao do Predio escolar=1}->S (S=903, others=2898)
+	[Qualidade=0,0138|Size=3|Lift=2,98] ||Similarity:0,9155||
+   cache(4):{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Banheiro fora do predio=N,Forma de ocupacao do Predio escolar=1}->S (S=898, others=2938)
+	[Qualidade=0,0136|Size=4|Lift=2,94] ||Similarity:0,9239||
+
+{nturesnome=NOITE,Existente na escola - Sala de Leitura=N,Existente na escola - Banheiro dentro do predio=S}->S (S=968, others=2832)
+	[Qualidade=0,0152|Size=3|Lift=3,2]
+   cache(0):{nturesnome=NOITE,Existente na escola - Sala de Leitura=N}->S (S=977, others=2939)
+	[Qualidade=0,0152|Size=2|Lift=3,13] ||Similarity:0,9704||
+   cache(1):{nturesnome=NOITE,Abastecimento de agua - Rede publica=S,Existente na escola - Sala de Leitura=N}->S (S=949, others=2885)
+	[Qualidade=0,0147|Size=3|Lift=3,11] ||Similarity:0,9494||
+   cache(2): ||Similarity:0,087||
+   cache(3): ||Similarity:0,087||
+   cache(4): ||Similarity:0,087||
+
+{nturesnome=NOITE,Existente na escola - Sala de Diretoria=S,Existente na escola - Banheiro dentro do predio=S}->S (S=980, others=3025)
+	[Qualidade=0,0151|Size=3|Lift=3,07]
+   cache(0):{nturesnome=NOITE,Existente na escola - Sala de Diretoria=S}->S (S=980, others=3034)
+	[Qualidade=0,0151|Size=2|Lift=3,07] ||Similarity:0,9978||
+   cache(1): ||Similarity:0,0917||
+   cache(2): ||Similarity:0,0917||
+   cache(3): ||Similarity:0,0917||
+   cache(4): ||Similarity:0,0917||
+
+{nturesnome=NOITE,Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S}->S (S=948, others=2707)
+	[Qualidade=0,015|Size=3|Lift=3,26]
+   cache(0):{nturesnome=NOITE,Existente na escola - Aparelho de som=S}->S (S=957, others=2814)
+	[Qualidade=0,015|Size=2|Lift=3,19] ||Similarity:0,9692||
+   cache(1):{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Aparelho de som=S}->S (S=920, others=2734)
+	[Qualidade=0,0144|Size=3|Lift=3,16] ||Similarity:0,9382||
+   cache(2):{nturesnome=NOITE,Abastecimento de agua - Rede publica=S,Existente na escola - Aparelho de som=S}->S (S=912, others=2729)
+	[Qualidade=0,0143|Size=3|Lift=3,15] ||Similarity:0,9348||
+   cache(3): ||Similarity:0,0837||
+   cache(4): ||Similarity:0,0837||
+
+{nturesnome=NOITE,Regulamentacao no conselho ou orgao municipal, estadual ou federal de educacao=1}->S (S=981, others=3124)
+	[Qualidade=0,015|Size=2|Lift=3]
+{nturesnome=NOITE,Abastecimento de agua - Rede publica=S,Existente na escola - Sala de secretaria=S}->S (S=967, others=3094)
+	[Qualidade=0,0147|Size=3|Lift=2,99]
+   cache(0):{nturesnome=NOITE,Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Abastecimento de agua - Rede publica=S,Existente na escola - Sala de secretaria=S}->S (S=930, others=3014)
+	[Qualidade=0,0141|Size=4|Lift=2,96] ||Similarity:0,9712||
+   cache(1): ||Similarity:0,093||
+   cache(2): ||Similarity:0,093||
+   cache(3): ||Similarity:0,093||
+   cache(4): ||Similarity:0,093||
+
+BUILD SUCCESSFUL (total time: 35 seconds)
