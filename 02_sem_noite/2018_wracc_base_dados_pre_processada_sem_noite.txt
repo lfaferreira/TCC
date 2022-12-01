@@ -1,0 +1,126 @@
+run:
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada_sem_noite(|I|=334; |A|=79; |D|=39082; |D+|=2345; |D-|=36737)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.0(2345p,36737n)(conf=0.06000204697814851)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Biblioteca e/ou Sala de leitura = S,Existente na escola - Aparelho de som = S,Existente na escola - Fax = N,Regulamentacao no conselho ou orgao municipal, estadual ou federal de educacao = 1} -> 0.008565573960571253(928p,8959n)(conf=0.09386062506321433)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Biblioteca e/ou Sala de leitura = S,Existente na escola - Banheiro com chuveiro = S,Existente na escola - Aparelho de som = S} -> 0.008464768195607854(915p,8821n)(conf=0.0939811010682005)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida = S,Existente na escola - Banheiro com chuveiro = S,Existente na escola - Aparelho de som = S} -> 0.008461750000126358(855p,7883n)(conf=0.0978484779125658)
+{Abastecimento de agua - Rede publica = S,Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Banheiro com chuveiro = S,Existente na escola - Aparelho de som = S,Existente na escola - Fax = N} -> 0.008458687284624747(846p,7744n)(conf=0.09848661233993015)
+{Abastecimento de agua - Rede publica = S,Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Banheiro fora do predio = N,Existente na escola - Aparelho de som = S,Existente na escola - Fax = N} -> 0.008456126728761811(848p,7777n)(conf=0.09831884057971015)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Biblioteca e/ou Sala de leitura = S,Existente na escola - Aparelho de som = S} -> 0.008449857262399382(995p,10084n)(conf=0.0898095495983392)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Biblioteca e/ou Sala de leitura = S,Existente na escola - Aparelho de som = S,Existente na escola - Fax = N} -> 0.008417090527592902(1011p,10356n)(conf=0.08894167326471364)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Banheiro fora do predio = N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida = S,Existente na escola - Banheiro com chuveiro = S,Existente na escola - Aparelho de som = S} -> 0.008397317746305132(798p,7032n)(conf=0.10191570881226053)
+{Abastecimento de agua - Rede publica = S,Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Laboratorio de ciencias = N,Existente na escola - Banheiro fora do predio = N,Existente na escola - Banheiro com chuveiro = S,Existente na escola - Aparelho de som = S} -> 0.008356869343909851(820p,7403n)(conf=0.09972029672868783)
+{Existente na escola - Sala de professores = S,Existente na escola - Laboratorio de informatica = S,Existente na escola - Banheiro fora do predio = N,Existente na escola - Aparelho de som = S,Existente na escola - Fax = N} -> 0.008352658273771678(954p,9505n)(conf=0.09121330911176977)
+### Data set:2018_base_dados_pre_processada_sem_noite(|I|=334; |A|=79; |D+|=2345; |D-|=36737)
+Average WRAcc: 0.008438069932367096
+Time(s): 38.279
+Average size: 6.2
+Coverage of all Pk DPs in relation to D+: 45.33049040511727%
+Description Redundancy Item Dominador (|itemDominador|/k): 1.0
+Number of individuals generated: 20421
+
+### Top-k and caches
+{} -> 0.0(2345p,36737n)(conf=0.06000204697814851)
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Regulamentacao no conselho ou orgao municipal, estadual ou federal de educacao=1}->S (S=928, others=8959)
+	[Qualidade=0,0086|Size=7|Lift=1,56]
+   cache(0):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=943, others=9195)
+	[Qualidade=0,0086|Size=6|Lift=1,55] ||Similarity:0,9752||
+   cache(1):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=943, others=9195)
+	[Qualidade=0,0086|Size=7|Lift=1,55] ||Similarity:0,9752||
+   cache(2):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Quantidade de Fax=0}->S (S=943, others=9195)
+	[Qualidade=0,0086|Size=7|Lift=1,55] ||Similarity:0,9752||
+   cache(3):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Sala de secretaria=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=943, others=9195)
+	[Qualidade=0,0086|Size=7|Lift=1,55] ||Similarity:0,9752||
+   cache(4):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Sala de secretaria=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=943, others=9195)
+	[Qualidade=0,0086|Size=8|Lift=1,55] ||Similarity:0,9752||
+
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=915, others=8821)
+	[Qualidade=0,0085|Size=6|Lift=1,57]
+   cache(0):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=858, others=7970)
+	[Qualidade=0,0084|Size=6|Lift=1,62] ||Similarity:0,9067||
+   cache(1): ||Similarity:0,2491||
+   cache(2): ||Similarity:0,2491||
+   cache(3): ||Similarity:0,2491||
+   cache(4): ||Similarity:0,2491||
+
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=855, others=7883)
+	[Qualidade=0,0085|Size=6|Lift=1,63]
+   cache(0):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=855, others=7883)
+	[Qualidade=0,0085|Size=7|Lift=1,63] ||Similarity:1||
+   cache(1):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=855, others=7883)
+	[Qualidade=0,0085|Size=7|Lift=1,63] ||Similarity:1||
+   cache(2):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=855, others=7883)
+	[Qualidade=0,0085|Size=8|Lift=1,63] ||Similarity:1||
+   cache(3):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=855, others=7883)
+	[Qualidade=0,0085|Size=8|Lift=1,63] ||Similarity:1||
+   cache(4):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=817, others=7316)
+	[Qualidade=0,0084|Size=7|Lift=1,67] ||Similarity:0,9308||
+
+{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=846, others=7744)
+	[Qualidade=0,0085|Size=7|Lift=1,64]
+   cache(0):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=846, others=7744)
+	[Qualidade=0,0085|Size=8|Lift=1,64] ||Similarity:1||
+   cache(1):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=877, others=8254)
+	[Qualidade=0,0084|Size=6|Lift=1,6] ||Similarity:0,9408||
+   cache(2):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=877, others=8254)
+	[Qualidade=0,0084|Size=7|Lift=1,6] ||Similarity:0,9408||
+   cache(3): ||Similarity:0,2198||
+   cache(4): ||Similarity:0,2198||
+
+{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=848, others=7777)
+	[Qualidade=0,0085|Size=7|Lift=1,64]
+   cache(0):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=848, others=7777)
+	[Qualidade=0,0085|Size=8|Lift=1,64] ||Similarity:1||
+   cache(1):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=848, others=7777)
+	[Qualidade=0,0085|Size=8|Lift=1,64] ||Similarity:1||
+   cache(2):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S}->S (S=900, others=8666)
+	[Qualidade=0,0083|Size=6|Lift=1,57] ||Similarity:0,9016||
+   cache(3): ||Similarity:0,2207||
+   cache(4): ||Similarity:0,2207||
+
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S}->S (S=995, others=10084)
+	[Qualidade=0,0084|Size=5|Lift=1,5]
+   cache(0):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Aparelho de som=S}->S (S=957, others=9517)
+	[Qualidade=0,0084|Size=5|Lift=1,52] ||Similarity:0,9454||
+   cache(1):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Aparelho de som=S,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=957, others=9517)
+	[Qualidade=0,0084|Size=6|Lift=1,52] ||Similarity:0,9454||
+   cache(2):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S}->S (S=957, others=9517)
+	[Qualidade=0,0084|Size=6|Lift=1,52] ||Similarity:0,9454||
+   cache(3):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S}->S (S=938, others=9233)
+	[Qualidade=0,0084|Size=5|Lift=1,54] ||Similarity:0,918||
+   cache(4):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S}->S (S=938, others=9233)
+	[Qualidade=0,0084|Size=6|Lift=1,54] ||Similarity:0,918||
+
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=1011, others=10356)
+	[Qualidade=0,0084|Size=5|Lift=1,48]
+   cache(0):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=973, others=9789)
+	[Qualidade=0,0084|Size=5|Lift=1,51] ||Similarity:0,9468||
+   cache(1):{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=973, others=9789)
+	[Qualidade=0,0084|Size=6|Lift=1,51] ||Similarity:0,9468||
+   cache(2):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=954, others=9505)
+	[Qualidade=0,0084|Size=5|Lift=1,52] ||Similarity:0,9201||
+   cache(3):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=954, others=9505)
+	[Qualidade=0,0084|Size=6|Lift=1,52] ||Similarity:0,9201||
+   cache(4): ||Similarity:0,2909||
+
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=798, others=7032)
+	[Qualidade=0,0084|Size=7|Lift=1,7]
+{Abastecimento de agua - Rede publica=S,Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Laboratorio de ciencias=N,Existente na escola - Banheiro fora do predio=N,Existente na escola - Banheiro com chuveiro=S,Existente na escola - Aparelho de som=S}->S (S=820, others=7403)
+	[Qualidade=0,0084|Size=7|Lift=1,66]
+{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N}->S (S=954, others=9505)
+	[Qualidade=0,0084|Size=5|Lift=1,52]
+   cache(0):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S,Existente na escola - Fax=N,Escola oferece Creche em classes comuns do ensino regular=N}->S (S=954, others=9505)
+	[Qualidade=0,0084|Size=6|Lift=1,52] ||Similarity:1||
+   cache(1):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S}->S (S=1006, others=10394)
+	[Qualidade=0,0082|Size=4|Lift=1,47] ||Similarity:0,9175||
+   cache(2):{Existente na escola - Sala de professores=S,Existente na escola - Laboratorio de informatica=S,Existente na escola - Biblioteca e/ou Sala de leitura=S,Existente na escola - Banheiro fora do predio=N,Existente na escola - Aparelho de som=S}->S (S=1006, others=10394)
+	[Qualidade=0,0082|Size=5|Lift=1,47] ||Similarity:0,9175||
+   cache(3): ||Similarity:0,2676||
+   cache(4): ||Similarity:0,2676||
+
+BUILD SUCCESSFUL (total time: 40 seconds)

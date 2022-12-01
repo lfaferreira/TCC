@@ -1,0 +1,114 @@
+run:
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada_sem_noite(|I|=334; |A|=79; |D|=39082; |D+|=2345; |D-|=36737)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.06383036637813708(2345p,36737n)(conf=0.06000204697814851)
+{alunosexo = M,Quantidade de computadores na escola = 26} -> 0.24302788844621515(61p,250n)(conf=0.19614147909967847)
+{alunosexo = M,Quantidade total de funcionarios da escola  = 77} -> 0.22697368421052633(69p,303n)(conf=0.18548387096774194)
+{alunosexo = M,Escola oferece Pre-escola em classes comuns do ensino regular = N,Quantidade de Datashow = 0,Quantidade de computadores na escola = 3} -> 0.2068345323741007(115p,555n)(conf=0.17164179104477612)
+{Quantidade total de funcionarios da escola  = 77} -> 0.18635607321131448(112p,600n)(conf=0.15730337078651685)
+{alunosexo = M,Existente na escola - Projetor Multimidia (Datashow) = N,Quantidade de Aparelhos de som = 4} -> 0.18181818181818182(46p,252n)(conf=0.15436241610738255)
+{alunosexo = M,Escola oferece Pre-escola em classes comuns do ensino regular = N,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 12,Quantidade de Televisao = 5} -> 0.18148820326678766(100p,550n)(conf=0.15384615384615385)
+{Quantidade de computadores na escola = 26} -> 0.18106995884773663(88p,485n)(conf=0.15357766143106458)
+{Existente na escola - Quadra de esportes Descoberta = S,Quantidade de Datashow = 0,Quantidade de computadores na escola = 3} -> 0.17989417989417988(204p,1133n)(conf=0.1525804038893044)
+{N. de salas utilizadas como salas de aula (dentro e fora do predio) = 12,Quantidade de Maquinas Fotograficas/ Filmadoras = 2} -> 0.17228464419475656(92p,533n)(conf=0.1472)
+{alunosexo = M,Quantidade de Datashow = 0,Quantidade de computadores na escola = 3} -> 0.16319444444444445(141p,863n)(conf=0.14043824701195218)
+### Data set:2018_base_dados_pre_processada_sem_noite(|I|=334; |A|=79; |D+|=2345; |D-|=36737)
+Average Qg: 0.19229417907082438
+Time(s): 32.924
+Average size: 2.5
+Coverage of all Pk DPs in relation to D+: 15.223880597014924%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.6
+Number of individuals generated: 17529
+
+### Top-k and caches
+{} -> 0.06383036637813708(2345p,36737n)(conf=0.06000204697814851)
+{alunosexo=M,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=2|Lift=3,27]
+   cache(0):{alunosexo=M,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=3|Lift=3,27] ||Similarity:1||
+   cache(1):{alunosexo=M,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Atividade Complementar=N,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=4|Lift=3,27] ||Similarity:1||
+   cache(2):{alunosexo=M,Existente na escola - Banheiro adequado ao uso dos alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Despensa=N,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=4|Lift=3,27] ||Similarity:1||
+   cache(3):{alunosexo=M,Existente na escola - Banheiro dentro do predio=S,Atendimento Educacional Especializado (AEE)=S,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=4|Lift=3,27] ||Similarity:1||
+   cache(4):{alunosexo=M,Existente na escola - Despensa=N,Forma de ocupacao do Predio escolar=1,Quantidade de computadores na escola=26}->S (S=61, others=250)
+	[Qualidade=0,243|Size=4|Lift=3,27] ||Similarity:1||
+
+{alunosexo=M,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=2|Lift=3,09]
+   cache(0):{alunosexo=M,Existente na escola - Banheiro dentro do predio=S,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=3|Lift=3,09] ||Similarity:1||
+   cache(1):{alunosexo=M,Existente na escola - Projetor Multimidia (Datashow)=N,Forma de ocupacao do Predio escolar=1,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=4|Lift=3,09] ||Similarity:1||
+   cache(2):{alunosexo=M,Existente na escola - Projetor Multimidia (Datashow)=N,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=3|Lift=3,09] ||Similarity:1||
+   cache(3):{alunosexo=M,Quantidade de Televisao=2,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=3|Lift=3,09] ||Similarity:1||
+   cache(4):{alunosexo=M,Esgoto sanitario - Fossa=S,Quantidade total de funcionarios da escola =77}->S (S=69, others=303)
+	[Qualidade=0,227|Size=3|Lift=3,09] ||Similarity:1||
+
+{alunosexo=M,Escola oferece Pre-escola em classes comuns do ensino regular=N,Quantidade de Datashow=0,Quantidade de computadores na escola=3}->S (S=115, others=555)
+	[Qualidade=0,2068|Size=4|Lift=2,86]
+{Quantidade total de funcionarios da escola =77}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=1|Lift=2,62]
+   cache(0):{N. de salas utilizadas como salas de aula (dentro e fora do predio)=15,Quantidade de computadores para uso dos alunos=3}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=2|Lift=2,62] ||Similarity:1||
+   cache(1):{Esgoto sanitario - Fossa=S,Quantidade total de funcionarios da escola =77}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=2|Lift=2,62] ||Similarity:1||
+   cache(2):{Existente na escola - DVD=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=15,Quantidade de computadores para uso dos alunos=3}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=3|Lift=2,62] ||Similarity:1||
+   cache(3):{Existente na escola - Banheiro dentro do predio=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=15,Quantidade de computadores para uso dos alunos=3}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=3|Lift=2,62] ||Similarity:1||
+   cache(4):{Existente na escola - Banheiro adequado a educacao infantil=N,Quantidade total de funcionarios da escola =77}->S (S=112, others=600)
+	[Qualidade=0,1864|Size=2|Lift=2,62] ||Similarity:1||
+
+{alunosexo=M,Existente na escola - Projetor Multimidia (Datashow)=N,Quantidade de Aparelhos de som=4}->S (S=46, others=252)
+	[Qualidade=0,1818|Size=3|Lift=2,57]
+{alunosexo=M,Escola oferece Pre-escola em classes comuns do ensino regular=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=12,Quantidade de Televisao=5}->S (S=100, others=550)
+	[Qualidade=0,1815|Size=4|Lift=2,56]
+{Quantidade de computadores na escola=26}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=1|Lift=2,56]
+   cache(0):{Quantidade de computadores de uso administrativo=8}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=1|Lift=2,56] ||Similarity:1||
+   cache(1):{Quantidade de computadores para uso dos alunos=18}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=1|Lift=2,56] ||Similarity:1||
+   cache(2):{Quantidade de computadores na escola=26,RPA=RPA4}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=2|Lift=2,56] ||Similarity:1||
+   cache(3):{Quantidade de Aparelhos de som=7,Quantidade de computadores na escola=26}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=2|Lift=2,56] ||Similarity:1||
+   cache(4):{Existente na escola - Impressora=S,Quantidade de Aparelhos de DVD=6}->S (S=88, others=485)
+	[Qualidade=0,1811|Size=2|Lift=2,56] ||Similarity:1||
+
+{Existente na escola - Quadra de esportes Descoberta=S,Quantidade de Datashow=0,Quantidade de computadores na escola=3}->S (S=204, others=1133)
+	[Qualidade=0,1799|Size=3|Lift=2,54]
+   cache(0):{Existente na escola - Quadra de esportes Descoberta=S,Quantidade de Datashow=0,Quantidade de computadores para uso dos alunos=3}->S (S=204, others=1133)
+	[Qualidade=0,1799|Size=3|Lift=2,54] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro com chuveiro=S,Escola oferece Pre-escola em classes comuns do ensino regular=N,Quantidade de Datashow=0}->S (S=204, others=1133)
+	[Qualidade=0,1799|Size=3|Lift=2,54] ||Similarity:1||
+   cache(2):{Existente na escola - Banheiro com chuveiro=S,Existente na escola - Projetor Multimidia (Datashow)=N,Escola oferece Pre-escola em classes comuns do ensino regular=N,Quantidade de Datashow=0}->S (S=204, others=1133)
+	[Qualidade=0,1799|Size=4|Lift=2,54] ||Similarity:1||
+   cache(3):{Existente na escola - Quadra de esportes Descoberta=S,Existente na escola - Parque infantil=N,Quantidade de Datashow=0,Quantidade de computadores de uso administrativo=0,Quantidade de computadores para uso dos alunos=3}->S (S=204, others=1133)
+	[Qualidade=0,1799|Size=5|Lift=2,54] ||Similarity:1||
+   cache(4): ||Similarity:0,0342||
+
+{N. de salas utilizadas como salas de aula (dentro e fora do predio)=12,Quantidade de Maquinas Fotograficas/ Filmadoras=2}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=2|Lift=2,45]
+   cache(0):{Existente na escola - Projetor Multimidia (Datashow)=N,Quantidade de Aparelhos de som=4}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=2|Lift=2,45] ||Similarity:1||
+   cache(1):{Existente na escola - Projetor Multimidia (Datashow)=N,Quantidade total de funcionarios da escola =65}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=2|Lift=2,45] ||Similarity:1||
+   cache(2):{Existente na escola - Cozinha=N,Existente na escola - Banheiro dentro do predio=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=12,Quantidade de Maquinas Fotograficas/ Filmadoras=2,Quantidade de computadores na escola=3}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=5|Lift=2,45] ||Similarity:1||
+   cache(3):{Existente na escola - Cozinha=N,Existente na escola - Banheiro dentro do predio=S,Quantidade de Maquinas Fotograficas/ Filmadoras=2}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=3|Lift=2,45] ||Similarity:1||
+   cache(4):{Existente na escola - Quadra de esportes Descoberta=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=12,Quantidade de computadores na escola=3}->S (S=92, others=533)
+	[Qualidade=0,1723|Size=3|Lift=2,45] ||Similarity:1||
+
+{alunosexo=M,Quantidade de Datashow=0,Quantidade de computadores na escola=3}->S (S=141, others=863)
+	[Qualidade=0,1632|Size=3|Lift=2,34]
+BUILD SUCCESSFUL (total time: 35 seconds)
