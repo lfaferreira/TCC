@@ -1,0 +1,112 @@
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada_apenas_noite(|I|=333; |A|=79; |D|=4579; |D+|=1130; |D-|=3449)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.32753623188405795(1130p,3449n)(conf=0.24677877265778556)
+{alunosexo = F,Existente na escola - Sala de professores = N,Escola cede espaco para turmas do Programa Brasil Alfabetizado = S,Quantidade de Datashow = 1} -> 11.5(23p,1n)(conf=0.9583333333333334)
+{alunosexo = F,Existente na escola - Sala de professores = N,N. de salas utilizadas como salas de aula (dentro e fora do predio) = 4} -> 8.0(8p,0n)(conf=1.0)
+{alunosexo = F,Existente na escola - Parque infantil = S,Quantidade total de funcionarios da escola  = 20} -> 7.5(15p,1n)(conf=0.9375)
+{alunosexo = F,Escola cede espaco para turmas do Programa Brasil Alfabetizado = S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular = S,Quantidade de Aparelhos de som = 1} -> 6.5(13p,1n)(conf=0.9285714285714286)
+{alunosexo = F,Existente na escola - Patio Descoberto = S,Atividade Complementar = S,RPA = RPA6} -> 4.75(19p,3n)(conf=0.8636363636363636)
+{alunosexo = F,Existente na escola - Sala de professores = N,Escola cede espaco para turmas do Programa Brasil Alfabetizado = S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular = S} -> 4.333333333333333(26p,5n)(conf=0.8387096774193549)
+{Atendimento Educacional Especializado (AEE) = S,N. de salas de aula existentes na escola = 5} -> 4.2(21p,4n)(conf=0.84)
+{Esgoto sanitario - Fossa = S,Existente na escola - Sala de professores = N,Escola cede espaco para turmas do Programa Brasil Alfabetizado = S} -> 4.142857142857143(29p,6n)(conf=0.8285714285714286)
+{Atividade Complementar = S,Quantidade de computadores na escola = 4} -> 3.05(61p,19n)(conf=0.7625)
+{alunosexo = F,Atividade Complementar = S,N. de salas de aula existentes na escola = 5} -> 3.0(18p,5n)(conf=0.782608695652174)
+### Data set:2018_base_dados_pre_processada_apenas_noite(|I|=333; |A|=79; |D+|=1130; |D-|=3449)
+Average Qg: 5.697619047619048
+Time(s): 3.037
+Average size: 3.2
+Coverage of all Pk DPs in relation to D+: 7.168141592920355%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.7
+Number of individuals generated: 17165
+
+### Top-k and caches
+{} -> 0.32753623188405795(1130p,3449n)(conf=0.24677877265778556)
+{alunosexo=F,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Quantidade de Datashow=1}->S (S=23, others=1)
+	[Qualidade=11,5|Size=4|Lift=3,88]
+{alunosexo=F,Existente na escola - Sala de professores=N,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=3|Lift=4,05]
+   cache(0):{alunosexo=F,Existente na escola - Sala de professores=N,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=4|Lift=4,05] ||Similarity:1||
+   cache(1):{alunosexo=F,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=5|Lift=4,05] ||Similarity:1||
+   cache(2):{alunosexo=F,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=4|Lift=4,05] ||Similarity:1||
+   cache(3):{alunosexo=F,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=3|Lift=4,05] ||Similarity:1||
+   cache(4):{alunosexo=F,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,N. de salas utilizadas como salas de aula (dentro e fora do predio)=4}->S (S=8, others=0)
+	[Qualidade=8|Size=4|Lift=4,05] ||Similarity:1||
+
+{alunosexo=F,Existente na escola - Parque infantil=S,Quantidade total de funcionarios da escola =20}->S (S=15, others=1)
+	[Qualidade=7,5|Size=3|Lift=3,8]
+   cache(0):{alunosexo=F,Quantidade de computadores na escola=4,Quantidade total de funcionarios da escola =20}->S (S=15, others=1)
+	[Qualidade=7,5|Size=3|Lift=3,8] ||Similarity:1||
+   cache(1):{alunosexo=F,Existente na escola - Parque infantil=S,N. de salas de aula existentes na escola=5,Quantidade de computadores na escola=4,Quantidade total de funcionarios da escola =20}->S (S=15, others=1)
+	[Qualidade=7,5|Size=5|Lift=3,8] ||Similarity:1||
+   cache(2):{alunosexo=F,Existente na escola - Parque infantil=S,Quantidade de computadores na escola=4}->S (S=15, others=1)
+	[Qualidade=7,5|Size=3|Lift=3,8] ||Similarity:1||
+   cache(3):{alunosexo=F,N. de salas de aula existentes na escola=5,Quantidade de computadores na escola=4,Quantidade total de funcionarios da escola =20}->S (S=15, others=1)
+	[Qualidade=7,5|Size=4|Lift=3,8] ||Similarity:1||
+   cache(4):{alunosexo=F,Existente na escola - Parque infantil=S,N. de salas de aula existentes na escola=5,Quantidade de computadores na escola=4}->S (S=15, others=1)
+	[Qualidade=7,5|Size=4|Lift=3,8] ||Similarity:1||
+
+{alunosexo=F,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Quantidade de Aparelhos de som=1}->S (S=13, others=1)
+	[Qualidade=6,5|Size=4|Lift=3,76]
+{alunosexo=F,Existente na escola - Patio Descoberto=S,Atividade Complementar=S,RPA=RPA6}->S (S=19, others=3)
+	[Qualidade=4,75|Size=4|Lift=3,5]
+{alunosexo=F,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S}->S (S=26, others=5)
+	[Qualidade=4,3333|Size=4|Lift=3,4]
+   cache(0):{alunosexo=F,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=26, others=5)
+	[Qualidade=4,3333|Size=4|Lift=3,4] ||Similarity:1||
+   cache(1): ||Similarity:0,0068||
+   cache(2): ||Similarity:0,0068||
+   cache(3): ||Similarity:0,0068||
+   cache(4): ||Similarity:0,0068||
+
+{Atendimento Educacional Especializado (AEE)=S,N. de salas de aula existentes na escola=5}->S (S=21, others=4)
+	[Qualidade=4,2|Size=2|Lift=3,4]
+   cache(0):{Quantidade de Retroprojetores=2,Quantidade de computadores na escola=4}->S (S=21, others=4)
+	[Qualidade=4,2|Size=2|Lift=3,4] ||Similarity:1||
+   cache(1):{Existente na escola - Patio Descoberto=S,Quantidade de computadores na escola=4}->S (S=21, others=4)
+	[Qualidade=4,2|Size=2|Lift=3,4] ||Similarity:1||
+   cache(2):{Existente na escola - Parque infantil=S,Quantidade de computadores na escola=4}->S (S=21, others=4)
+	[Qualidade=4,2|Size=2|Lift=3,4] ||Similarity:1||
+   cache(3):{Existente na escola - Quadra de esportes Descoberta=N,Existente na escola - Parque infantil=S,N. de salas de aula existentes na escola=5}->S (S=21, others=4)
+	[Qualidade=4,2|Size=3|Lift=3,4] ||Similarity:1||
+   cache(4):{Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Quantidade de Retroprojetores=2,Quantidade de computadores de uso administrativo=1}->S (S=21, others=4)
+	[Qualidade=4,2|Size=3|Lift=3,4] ||Similarity:1||
+
+{Esgoto sanitario - Fossa=S,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S}->S (S=29, others=6)
+	[Qualidade=4,1429|Size=3|Lift=3,36]
+   cache(0):{Esgoto sanitario - Fossa=S,Existente na escola - Sala de professores=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S}->S (S=29, others=6)
+	[Qualidade=4,1429|Size=4|Lift=3,36] ||Similarity:1||
+   cache(1):{Existente na escola - Biblioteca=N,Existente na escola - Dependencias e vias adequadas a alunos com deficiencia ou mobilidade reduzida=S,Existente na escola - Lavanderia=N,Escola cede espaco para turmas do Programa Brasil Alfabetizado=S}->S (S=29, others=6)
+	[Qualidade=4,1429|Size=4|Lift=3,36] ||Similarity:1||
+   cache(2): ||Similarity:0,0076||
+   cache(3): ||Similarity:0,0076||
+   cache(4): ||Similarity:0,0076||
+
+{Atividade Complementar=S,Quantidade de computadores na escola=4}->S (S=61, others=19)
+	[Qualidade=3,05|Size=2|Lift=3,09]
+   cache(0):{Atividade Complementar=S,Quantidade de Datashow=1,Quantidade de computadores de uso administrativo=1}->S (S=61, others=19)
+	[Qualidade=3,05|Size=3|Lift=3,09] ||Similarity:1||
+   cache(1):{Atividade Complementar=S,Quantidade de Datashow=1,Quantidade de computadores na escola=4}->S (S=61, others=19)
+	[Qualidade=3,05|Size=3|Lift=3,09] ||Similarity:1||
+   cache(2):{Existente na escola - Impressora=N,Quantidade de computadores na escola=4}->S (S=61, others=19)
+	[Qualidade=3,05|Size=2|Lift=3,09] ||Similarity:1||
+   cache(3): ||Similarity:0,0175||
+   cache(4): ||Similarity:0,0175||
+
+{alunosexo=F,Atividade Complementar=S,N. de salas de aula existentes na escola=5}->S (S=18, others=5)
+	[Qualidade=3|Size=3|Lift=3,17]
+   cache(0):{alunosexo=F,Atividade Complementar=S,N. de salas de aula existentes na escola=5,Quantidade de Aparelhos de DVD=2}->S (S=18, others=5)
+	[Qualidade=3|Size=4|Lift=3,17] ||Similarity:1||
+   cache(1): ||Similarity:0,005||
+   cache(2): ||Similarity:0,005||
+   cache(3): ||Similarity:0,005||
+   cache(4): ||Similarity:0,005||
+
+BUILD SUCCESSFUL (total time: 3 seconds)

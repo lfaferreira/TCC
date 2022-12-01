@@ -1,0 +1,133 @@
+Loading data set...
+
+### Data set:2018_base_dados_pre_processada_apenas_noite(|I|=333; |A|=79; |D|=4579; |D+|=1130; |D-|=3449)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.0(1130p,3449n)(conf=0.24677877265778556)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de televisao = S,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.042835583375037276(686p,1299n)(conf=0.3455919395465995)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de televisao = S,Existente na escola - Projetor Multimidia (Datashow) = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.04260961182255691(644p,1175n)(conf=0.35404068169323805)
+{Existente na escola - Bercario = N,Existente na escola - Banheiro dentro do predio = S,Existente na escola - Auditorio = N,Existente na escola - Aparelho de televisao = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.04080579795882539(635p,1181n)(conf=0.3496696035242291)
+{Existente na escola - Banheiro dentro do predio = S,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.04053613920877812(769p,1595n)(conf=0.32529610829103217)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Projetor Multimidia (Datashow) = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.040341549944506276(719p,1446n)(conf=0.3321016166281755)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de televisao = S,Existente na escola - Aparelho de som = S,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.04010561046157669(616p,1136n)(conf=0.3515981735159817)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de televisao = S,Existente na escola - Impressora Multifuncional = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.03911105900866975(569p,1011n)(conf=0.360126582278481)
+{Existente na escola - Banheiro dentro do predio = S,Existente na escola - Aparelho de som = S,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.03864075392656572(670p,1328n)(conf=0.3353353353353353)
+{Existente na escola - Aparelho de televisao = S,Existente na escola - Projetor Multimidia (Datashow) = S,Existente na escola - Fax = N,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.03793818175696077(631p,1222n)(conf=0.34052887209929844)
+{Agua consumida pelos alunos na escola passa por um processo de purificacao = S,Existente na escola - Aparelho de televisao = S,Ensino Fundamental organizado em ciclos = S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao) = N} -> 0.03677460472744125(658p,1326n)(conf=0.3316532258064516)
+### Data set:2018_base_dados_pre_processada_apenas_noite(|I|=333; |A|=79; |D+|=1130; |D-|=3449)
+Average WRAcc: 0.03996988921909182
+Time(s): 5.709
+Average size: 4.1
+Coverage of all Pk DPs in relation to D+: 69.29203539823008%
+Description Redundancy Item Dominador (|itemDominador|/k): 1.0
+Number of individuals generated: 28366
+
+### Top-k and caches
+{} -> 0.0(1130p,3449n)(conf=0.24677877265778556)
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=686, others=1299)
+	[Qualidade=0,0428|Size=4|Lift=1,4]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=686, others=1299)
+	[Qualidade=0,0428|Size=5|Lift=1,4] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Creche em classes comuns do ensino regular=N,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=686, others=1299)
+	[Qualidade=0,0428|Size=6|Lift=1,4] ||Similarity:1||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=691, others=1315)
+	[Qualidade=0,0428|Size=3|Lift=1,4] ||Similarity:0,9895||
+   cache(3):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=691, others=1315)
+	[Qualidade=0,0428|Size=4|Lift=1,4] ||Similarity:0,9895||
+   cache(4):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Escola oferece Creche em classes comuns do ensino regular=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=691, others=1315)
+	[Qualidade=0,0428|Size=4|Lift=1,4] ||Similarity:0,9895||
+
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=644, others=1175)
+	[Qualidade=0,0426|Size=4|Lift=1,43]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=644, others=1175)
+	[Qualidade=0,0426|Size=5|Lift=1,43] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=593, others=1053)
+	[Qualidade=0,0408|Size=6|Lift=1,46] ||Similarity:0,9049||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=598, others=1069)
+	[Qualidade=0,0408|Size=5|Lift=1,45] ||Similarity:0,9164||
+   cache(3):{Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=648, others=1266)
+	[Qualidade=0,0384|Size=5|Lift=1,37] ||Similarity:0,9292||
+   cache(4):{Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=648, others=1266)
+	[Qualidade=0,0384|Size=4|Lift=1,37] ||Similarity:0,9292||
+
+{Existente na escola - Bercario=N,Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Aparelho de televisao=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=635, others=1181)
+	[Qualidade=0,0408|Size=5|Lift=1,42]
+   cache(0):{Existente na escola - Auditorio=N,Existente na escola - Aparelho de televisao=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=654, others=1316)
+	[Qualidade=0,0367|Size=3|Lift=1,35] ||Similarity:0,9218||
+   cache(1): ||Similarity:0,3966||
+   cache(2): ||Similarity:0,3966||
+   cache(3): ||Similarity:0,3966||
+   cache(4): ||Similarity:0,3966||
+
+{Existente na escola - Banheiro dentro do predio=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=769, others=1595)
+	[Qualidade=0,0405|Size=3|Lift=1,32]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=769, others=1595)
+	[Qualidade=0,0405|Size=4|Lift=1,32] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Creche em classes comuns do ensino regular=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=769, others=1595)
+	[Qualidade=0,0405|Size=4|Lift=1,32] ||Similarity:1||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=774, others=1611)
+	[Qualidade=0,0405|Size=2|Lift=1,32] ||Similarity:0,9912||
+   cache(3):{Existente na escola - Banheiro dentro do predio=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=774, others=1611)
+	[Qualidade=0,0405|Size=3|Lift=1,32] ||Similarity:0,9912||
+   cache(4):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=714, others=1430)
+	[Qualidade=0,0404|Size=4|Lift=1,35] ||Similarity:0,9069||
+
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=719, others=1446)
+	[Qualidade=0,0403|Size=3|Lift=1,35]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=719, others=1446)
+	[Qualidade=0,0403|Size=4|Lift=1,35] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Projetor Multimidia (Datashow)=S,Existente na escola - Fax=N,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=702, others=1402)
+	[Qualidade=0,0399|Size=4|Lift=1,35] ||Similarity:0,9718||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=668, others=1324)
+	[Qualidade=0,0385|Size=5|Lift=1,36] ||Similarity:0,9201||
+   cache(3):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Projetor Multimidia (Datashow)=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=673, others=1340)
+	[Qualidade=0,0385|Size=4|Lift=1,35] ||Similarity:0,9298||
+   cache(4):{Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=723, others=1537)
+	[Qualidade=0,0361|Size=4|Lift=1,3] ||Similarity:0,9399||
+
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Aparelho de som=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=616, others=1136)
+	[Qualidade=0,0401|Size=5|Lift=1,42]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Aparelho de som=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=621, others=1152)
+	[Qualidade=0,0401|Size=4|Lift=1,42] ||Similarity:0,9882||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Aparelho de som=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=621, others=1152)
+	[Qualidade=0,0401|Size=5|Lift=1,42] ||Similarity:0,9882||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Aparelho de televisao=S,Existente na escola - Aparelho de som=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=575, others=1046)
+	[Qualidade=0,0382|Size=5|Lift=1,44] ||Similarity:0,9024||
+   cache(3): ||Similarity:0,3826||
+   cache(4): ||Similarity:0,3826||
+
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de televisao=S,Existente na escola - Impressora Multifuncional=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=569, others=1011)
+	[Qualidade=0,0391|Size=4|Lift=1,46]
+   cache(0):{Existente na escola - Aparelho de televisao=S,Existente na escola - Impressora Multifuncional=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=578, others=1109)
+	[Qualidade=0,0353|Size=3|Lift=1,39] ||Similarity:0,9366||
+   cache(1): ||Similarity:0,3451||
+   cache(2): ||Similarity:0,3451||
+   cache(3): ||Similarity:0,3451||
+   cache(4): ||Similarity:0,3451||
+
+{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=670, others=1328)
+	[Qualidade=0,0386|Size=4|Lift=1,36]
+   cache(0):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=670, others=1328)
+	[Qualidade=0,0386|Size=5|Lift=1,36] ||Similarity:1||
+   cache(1):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=675, others=1344)
+	[Qualidade=0,0386|Size=3|Lift=1,35] ||Similarity:0,9896||
+   cache(2):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S,Escola oferece Anos Iniciais do Ensino Fundamental  em classes comuns do ensino regular=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=675, others=1344)
+	[Qualidade=0,0386|Size=4|Lift=1,35] ||Similarity:0,9896||
+   cache(3):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Auditorio=N,Existente na escola - Aparelho de som=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=629, others=1238)
+	[Qualidade=0,0367|Size=4|Lift=1,37] ||Similarity:0,9143||
+   cache(4):{Existente na escola - Banheiro dentro do predio=S,Existente na escola - Aparelho de som=S,Existente na escola - Projetor Multimidia (Datashow)=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=618, others=1210)
+	[Qualidade=0,0364|Size=5|Lift=1,37] ||Similarity:0,9149||
+
+{Existente na escola - Aparelho de televisao=S,Existente na escola - Projetor Multimidia (Datashow)=S,Existente na escola - Fax=N,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=631, others=1222)
+	[Qualidade=0,0379|Size=5|Lift=1,38]
+{Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Aparelho de televisao=S,Ensino Fundamental organizado em ciclos=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=658, others=1326)
+	[Qualidade=0,0368|Size=4|Lift=1,34]
+   cache(0):{Agua consumida pelos alunos na escola passa por um processo de purificacao=S,Existente na escola - Aparelho de televisao=S,Escola oferece Anos Finais do Ensino Fundamental em classes comuns do ensino regular (Inclusao)=N}->S (S=663, others=1342)
+	[Qualidade=0,0367|Size=3|Lift=1,34] ||Similarity:0,9895||
+   cache(1): ||Similarity:0,4333||
+   cache(2): ||Similarity:0,4333||
+   cache(3): ||Similarity:0,4333||
+   cache(4): ||Similarity:0,4333||
+
+BUILD SUCCESSFUL (total time: 6 seconds)
